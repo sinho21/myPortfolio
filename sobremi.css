@@ -1,0 +1,201 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+  background: #121212;
+  color: #eaeaea;
+}
+
+/* Header */
+header {
+  background: #0d0d0d;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #1f1f1f;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  color: #eaeaea;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  color: #00adb5;
+}
+
+.hero {
+  margin-top: 40px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+}
+
+.hero span {
+  color: #00adb5;
+}
+
+.hero p {
+  margin: 15px 0;
+  font-size: 1.2rem;
+  color: #cccccc;
+}
+
+/* Sobre mí */
+.about {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.about p {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #bbbbbb;
+}
+
+/* Skills */
+.skills {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.skills h2 {
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.skill {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+}
+
+.skill i {
+  font-size: 2rem;
+  color: #00adb5;
+}
+
+.skill p {
+  margin-top: 10px;
+  color: #cccccc;
+}
+
+/* Experiencia */
+.experience {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.experience h2 {
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.timeline {
+  max-width: 700px;
+  margin: auto;
+  text-align: left;
+  border-left: 2px solid #00adb5;
+  padding-left: 20px;
+}
+
+.timeline-item {
+  margin-bottom: 20px;
+}
+
+.timeline-item h3 {
+  color: #00adb5;
+}
+
+.timeline-item p {
+  color: #bbbbbb;
+}
+
+/* Contacto */
+.contact {
+  background: #0d0d0d;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  border-top: 1px solid #1f1f1f;
+}
+
+.contact a {
+  color: #00adb5;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.social {
+  margin-top: 15px;
+}
+
+.social a {
+  margin: 0 10px;
+  color: #eaeaea;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.social a:hover {
+  color: #00adb5;
+}
+
+/* Footer */
+footer {
+  background: #0a0a0a;
+  color: #888;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+}
